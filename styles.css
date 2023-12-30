@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #392467;
+}
+
+header {
+    background-color: #5D3587;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.movie-card {
+    border: 1px solid #FFD1E3;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    width: 22%; 
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .movie-card {
+        width: 100%;
+    }
+}
+
+
+#movieDetails {
+    text-align: center;
+}
+
+#movieDetails img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
